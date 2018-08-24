@@ -1,0 +1,37 @@
+#all{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url("../css/1111.jpg") no-repeat;
+    background-size: cover;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: rgb(242, 245, 247);//此处是自己想用的颜色
+}
+
+#select{
+    width: 180px;
+}
+
+th,#tit{
+    font-size: 30px;
+}
+
+
+#tit{
+    display: flex;
+    justify-content: center;
+}
+
+.tip{
+    color: red;
+}
+
+#inf{
+    width: 60%;
+    height: 600px;
+    padding: 50px;
+    background-color: rgba(238, 222, 195, 0.75);
+}
