@@ -2,17 +2,18 @@ package model;
 
 public class Info extends Entity {
     String name;
-    String age;
+    Integer age;
     String sex;
-    String ID;
-    String grade;
+    Integer ID;
+    Integer grade;
+    @Override
     public String getType(){
         return "mytest";
     }
 
-    public String getGrade() { return grade; }
+    public Integer getGrade() { return grade; }
 
-    public void setGrade(String grade) { this.grade = grade; }
+    public void setGrade(Integer grade) { this.grade = grade; }
 
     public String getName() {
         return name;
@@ -22,11 +23,11 @@ public class Info extends Entity {
         this.name = name;
     }
 
-    public String getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -38,11 +39,11 @@ public class Info extends Entity {
         this.sex = sex;
     }
 
-    public String getID(){
+    public Integer getID(){
         return ID;
     }
 
-    public void setID(String ID){
+    public void setID(Integer ID){
         this.ID=ID;
     }
 }

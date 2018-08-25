@@ -1,6 +1,5 @@
 package servlet;
 
-import dao.InfoDao;
 import model.Info;
 
 import javax.servlet.ServletException;

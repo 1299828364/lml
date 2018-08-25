@@ -1,6 +1,6 @@
 package servlet;
 
-import dao.InfoDao;
+import dao.TestDao;
 import model.Info;
 
 import javax.servlet.ServletException;
@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.SQLException;
-import java.util.List;
 
 @WebServlet("/Servlet3")
 public class Servlet3 extends HttpServlet {
@@ -19,7 +17,8 @@ public class Servlet3 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         PrintWriter out =response.getWriter();
-        if(InfoDao.delete(request.getParameter("ID"))){
+        String ID=request.getParameter("ID");
+        if(TestDao.delete(Info.class,"ID ="+ID)){
             out.print(true);
         }
         else {

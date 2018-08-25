@@ -1,6 +1,6 @@
 package servlet;
 
-import dao.InfoDao;
+import dao.TestDao;
 import model.Info;
 
 import javax.servlet.ServletException;
@@ -10,11 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.lang.reflect.InvocationTargetException;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.List;
-
-import static util.DBUtil.getConnection;
 
 @WebServlet(name = "Servlet2")
 public class Servlet2 extends HttpServlet {
@@ -28,35 +26,41 @@ public class Servlet2 extends HttpServlet {
 
 
         String name = request.getParameter("name");
-//        byte[] data=name.getBytes("ISO-8859-1");
-//        name=new String(data,"utf-8");
 
         String age=request.getParameter("age");
-//        byte[] sss=age.getBytes("ISO-8859-1");
-//        age=new String(sss,"utf-8");
 
         String sex=request.getParameter("sex");
-//        byte[] bbb=sex.getBytes("ISO-8859-1");
-//        sex=new String(bbb,"utf-8");
 
         String grade=request.getParameter("grade");
 
         String ID=request.getParameter("ID");
 
         PrintWriter out =response.getWriter();
-
-        if(InfoDao.change(name,age,sex,ID,grade)){
-            List<Info> infos=null;
-            try {
-                infos=infoDao.findAll();
-            } catch (SQLException e) {
-                e.printStackTrace();
+        String condition="ID="+ID;
+        Info info=new Info();
+        info.setAge(Integer.valueOf(age));
+        info.setName(name);
+        info.setSex(sex);
+        info.setGrade(Integer.valueOf(grade));
+        try {
+            if(TestDao.updateSQL(info,condition)){
+                List<Info> infos=null;
+                try {
+                    infos=infoDao.findAll();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                out.print(true);
+            }else {
+                out.print(false);
             }
-            out.print(true);
-        }else {
-            out.print(false);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
         }
-
 
 
     }

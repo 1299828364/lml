@@ -1,11 +1,12 @@
 package model;
 
 public class UInfo extends Entity {
-    String user;
-    String password;
+    String  user;
+    String code;
 
+    @Override
     public String getType(){
-        return "mytest";
+        return "user";
     }
 
     public String getUser() {
@@ -16,11 +17,11 @@ public class UInfo extends Entity {
         this.user = user;
     }
 
-    public String getPassword() {
-        return password;
+    public String getCode() {
+        return code;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setCode(String password) {
+        this.code = password;
     }
 }

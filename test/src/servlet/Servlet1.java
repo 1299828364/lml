@@ -1,6 +1,6 @@
 package servlet;
 
-import dao.InfoDao;
+import dao.TestDao;
 import model.Info;
 
 import javax.servlet.ServletException;
@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.SQLException;
-import java.util.List;
 
 @WebServlet("/Servlet1")
 public class Servlet1 extends HttpServlet {
@@ -30,10 +28,14 @@ public class Servlet1 extends HttpServlet {
 
         String grade=request.getParameter("grade");
 
-
+        Info info=new Info();
+        info.setSex(sex);
+        info.setName(name);
+        info.setGrade(Integer.valueOf(grade));
+        info.setAge(Integer.valueOf(age));
         System.out.println(name+" "+age);
         PrintWriter out =response.getWriter();
-        if(InfoDao.add(name,age,sex,grade)){
+        if(TestDao.add(info)){
             out.print(true);
          }
          else {

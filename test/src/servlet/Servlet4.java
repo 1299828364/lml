@@ -1,6 +1,6 @@
 package servlet;
 
-import dao.UserDao;
+import model.UInfo;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -15,7 +15,9 @@ public class Servlet4 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String user=request.getParameter("ID");
         String password=request.getParameter("password");
-
+        UInfo uInfo=new UInfo();
+        uInfo.setUser(user);
+        uInfo.setCode(password);
         UserDao uDao=new UserDao();
         PrintWriter out =response.getWriter();
         if (uDao.enroll(user,password)){
