@@ -54,8 +54,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="css" value="5" />
-          <entry key="java" value="82" />
+          <entry key="css" value="6" />
+          <entry key="java" value="85" />
           <entry key="jsp" value="25" />
           <entry key="rnc" value="1" />
           <entry key="xml" value="6" />
@@ -65,8 +65,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="CSS" value="5" />
-          <entry key="JAVA" value="82" />
+          <entry key="CSS" value="6" />
+          <entry key="JAVA" value="85" />
           <entry key="JSP" value="25" />
           <entry key="RNG Compact" value="1" />
           <entry key="XML" value="7" />
@@ -76,16 +76,16 @@
         <counts>
           <entry key="css" value="918" />
           <entry key="dummy" value="14" />
-          <entry key="java" value="9368" />
-          <entry key="jsp" value="6498" />
+          <entry key="java" value="9517" />
+          <entry key="jsp" value="6834" />
           <entry key="xml" value="267" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="918" />
-          <entry key="JAVA" value="9368" />
-          <entry key="JSP" value="6498" />
+          <entry key="JAVA" value="9517" />
+          <entry key="JSP" value="6834" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="XML" value="267" />
         </counts>
@@ -97,29 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/TestDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/Servlet3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/Servlet1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="208">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,15 +116,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
@@ -158,10 +128,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/information.jsp">
+        <entry file="file://$PROJECT_DIR$/src/model/Info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="193" column="80" selection-start-line="193" selection-start-column="80" selection-end-line="193" selection-end-column="80" />
+            <state relative-caret-position="-290">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -169,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="218">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,10 +149,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/jsp/information.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="185" column="38" selection-start-line="185" selection-start-column="38" selection-end-line="185" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/ServletTemp.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/information.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/SearchServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -190,7 +187,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/Servlet2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="582">
               <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
             </state>
           </provider>
@@ -243,7 +240,6 @@
         <option value="$PROJECT_DIR$/web/css/logIn.css" />
         <option value="$PROJECT_DIR$/src/util/DBUtil.java" />
         <option value="$PROJECT_DIR$/src/servlet/CookieServlet.java" />
-        <option value="$PROJECT_DIR$/web/css/information.css" />
         <option value="$PROJECT_DIR$/web/jsp/logIn.jsp" />
         <option value="$PROJECT_DIR$/src/model/entity.java" />
         <option value="$PROJECT_DIR$/src/model/B.java" />
@@ -255,13 +251,15 @@
         <option value="$PROJECT_DIR$/src/servlet/Servlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/Servlet3.java" />
         <option value="$PROJECT_DIR$/src/servlet/Servlet4.java" />
-        <option value="$PROJECT_DIR$/src/servlet/ServletTemp.java" />
         <option value="$PROJECT_DIR$/src/servlet/ServletTemp1.java" />
         <option value="$PROJECT_DIR$/src/model/Info.java" />
-        <option value="$PROJECT_DIR$/src/dao/TestDao.java" />
         <option value="$PROJECT_DIR$/src/servlet/Servlet1.java" />
-        <option value="$PROJECT_DIR$/web/jsp/information.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/Servlet2.java" />
+        <option value="$PROJECT_DIR$/src/dao/TestDao.java" />
+        <option value="$PROJECT_DIR$/src/servlet/SearchServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/ServletTemp.java" />
+        <option value="$PROJECT_DIR$/web/css/information.css" />
+        <option value="$PROJECT_DIR$/web/jsp/information.jsp" />
       </list>
     </option>
   </component>
@@ -279,10 +277,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="105" />
-    <option name="y" value="10" />
-    <option name="width" value="1585" />
-    <option name="height" value="1040" />
+    <option name="x" value="902" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -366,7 +363,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535335022635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535353377847" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -590,12 +587,12 @@
       <workItem from="1535202399264" duration="652000" />
       <workItem from="1535265112006" duration="1459000" />
       <workItem from="1535291022975" duration="7087000" />
-      <workItem from="1535330388641" duration="4508000" />
+      <workItem from="1535330388641" duration="12070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227615000" />
+    <option name="totallyTimeSpent" value="235177000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,20 +604,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4847059" weight="0.19101876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4837963" visible="true" weight="0.19101876" />
       <window_info id="Structure" order="1" sideWeight="0.51529413" side_tool="true" weight="0.18096514" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5141643" side_tool="true" weight="0.16756032" />
+      <window_info id="Web" order="7" sideWeight="0.5162037" side_tool="true" weight="0.19101876" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.388102" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.388102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32577905" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -644,14 +641,14 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4847059" visible="true" weight="0.19101876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4837963" visible="true" weight="0.19101876" />
       <window_info id="Structure" order="1" sideWeight="0.51529413" side_tool="true" weight="0.18096514" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5141643" side_tool="true" weight="0.16756032" />
+      <window_info id="Web" order="7" sideWeight="0.5162037" side_tool="true" weight="0.19101876" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.388102" />
@@ -761,31 +758,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
-          <line>20</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
-          <line>19</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
-          <line>18</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
-          <line>25</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="104" />
         </line-breakpoint>
@@ -1125,6 +1116,66 @@
           <properties />
           <option name="timeStamp" value="296" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/servlet/ServletTemp.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/TestDao.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/TestDao.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/TestDao.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/TestDao.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dao/TestDao.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1138,6 +1189,7 @@
         <watch expression="userName" language="JSP" />
         <watch expression="info.getID()" language="JAVA" />
         <watch expression="info.getEnglishgrade()" language="JAVA" />
+        <watch expression="sql" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="fields.length" language="JAVA" />
@@ -1151,6 +1203,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>sql</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>info.getEnglishgrade()</expression-string>
         <language-id>JAVA</language-id>
@@ -1282,13 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/information.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/B.java" />
     <entry file="jar://$USER_HOME$/Documents/Tencent Files/1299828364/FileRecv/mysql-connector-java-5.1.38.jar!/com/mysql/jdbc/ResultSetMetaData.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1353,27 +1403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/UInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,17 +1434,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/information.jsp">
+    <entry file="file://$PROJECT_DIR$/src/model/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="193" column="80" selection-start-line="193" selection-start-column="80" selection-end-line="193" selection-end-column="80" />
+        <state relative-caret-position="218">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/logIn.jsp">
+    <entry file="file://$PROJECT_DIR$/src/model/Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="-290">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/SearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/Servlet2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1425,17 +1475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/Servlet2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/TestDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="208">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1444,8 +1487,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/ServletTemp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="194">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/information.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/logIn.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/information.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="185" column="38" selection-start-line="185" selection-start-column="38" selection-end-line="185" selection-end-column="38" />
         </state>
       </provider>
     </entry>

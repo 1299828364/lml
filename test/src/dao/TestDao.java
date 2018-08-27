@@ -193,13 +193,4 @@ public class TestDao {
         return true;
     }
 
-    public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
-       UInfo uInfo=new UInfo();
-       uInfo.setCode("123");
-       uInfo.setUser("111");
-
-//       Info1 info1=getOne(Info1.class,"ID=1");
-
-       System.out.println(add(uInfo));
-    }
 }

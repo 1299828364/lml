@@ -129,6 +129,7 @@
 
     <div id="inf">
         <div id="tit"><strong>学生信息</strong></div>
+        <div id="search"><input id="selectValue" type="text" ><input type="button" value="搜索" onclick="search()"></div>
         <table id="tableID" class="table table-striped">
             <thead style="...">
             <tr>
@@ -180,6 +181,17 @@
             var is=true;
             var IDs;
 
+            window.onload=function () {
+                var length=$("#all").height();
+                if(length<800){
+                    $("#all").height(800);
+                }
+            }
+
+            function search() {
+                var inni=$("#selectValue").val();
+                window.location.href="/ServletTemp?action=search&condition="+inni;
+            }
             function findGrade(ID,name,grade,englishgrade,mathgrade) {
                 alert(ID);
                 IDs=ID;

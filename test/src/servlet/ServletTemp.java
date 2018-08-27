@@ -15,8 +15,15 @@ import java.util.List;
 public class ServletTemp extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String condition=null;
+        if(request.getParameter("condition")!=null){
+            condition=new String(request.getParameter("condition").getBytes("ISO-8859-1"),"UTF-8");
+            condition=" name LIKE '%"+condition+"%'";
+        }
+
+
         List<Info> infos=null;
-        infos= TestDao.findAll(Info.class,null);
+        infos= TestDao.findAll(Info.class,condition);
 
         request.setAttribute("infos",infos);
         request.getRequestDispatcher("jsp/information.jsp").forward(request,response);
