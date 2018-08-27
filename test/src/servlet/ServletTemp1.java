@@ -1,5 +1,6 @@
 package servlet;
 
+import dao.TestDao;
 import model.Info;
 
 import javax.servlet.ServletException;
@@ -14,14 +15,9 @@ import java.util.List;
 
 @WebServlet(name = "ServletTEmp1")
 public class ServletTemp1 extends HttpServlet {
-    private InfoDao infoDao = InfoDao.getInfoDao();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Info> infos=null;
-        try {
-            infos=infoDao.findAll();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        infos= TestDao.findAll(Info.class,null);
         PrintWriter out =response.getWriter();
         out.print(infos);
     }

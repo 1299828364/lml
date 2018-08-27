@@ -6,6 +6,25 @@ public class Info extends Entity {
     String sex;
     Integer ID;
     Integer grade;
+    Integer englishgrade;
+    Integer mathgrade;
+
+    public Integer getEnglishgrade() {
+        return englishgrade;
+    }
+
+    public void setEnglishgrade(Integer englishgrade) {
+        this.englishgrade = englishgrade;
+    }
+
+    public Integer getMathgrade() {
+        return mathgrade;
+    }
+
+    public void setMathgrade(Integer mathgrade) {
+        this.mathgrade = mathgrade;
+    }
+
     @Override
     public String getType(){
         return "mytest";

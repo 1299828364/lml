@@ -19,37 +19,44 @@ public class Servlet2 extends HttpServlet {
 
     private static final long serialVersionUID=1L;
 
-    private InfoDao infoDao = InfoDao.getInfoDao();
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Info info=new Info();
+
+        if (request.getParameter("name")!=null){
+            info.setName(request.getParameter("name"));
+        }
+
+        if (request.getParameter("age")!=null){
+            info.setAge(Integer.valueOf(request.getParameter("age")));
+        }
+
+        if (request.getParameter("sex")!=null){
+            info.setSex(request.getParameter("name"));
+        }
+
+        if (request.getParameter("grade")!=null){
+            info.setGrade(Integer.valueOf(request.getParameter("grade")));
+        }
+
+        if (request.getParameter("mathgrade")!=null){
+            info.setMathgrade(Integer.valueOf(request.getParameter("mathgrade")));
+        }
+
+        if (request.getParameter("englishgrade")!=null){
+            info.setEnglishgrade(Integer.valueOf(request.getParameter("englishgrade")));
+        }
 
 
-        String name = request.getParameter("name");
+         String ID=request.getParameter("ID");
 
-        String age=request.getParameter("age");
 
-        String sex=request.getParameter("sex");
-
-        String grade=request.getParameter("grade");
-
-        String ID=request.getParameter("ID");
 
         PrintWriter out =response.getWriter();
         String condition="ID="+ID;
-        Info info=new Info();
-        info.setAge(Integer.valueOf(age));
-        info.setName(name);
-        info.setSex(sex);
-        info.setGrade(Integer.valueOf(grade));
         try {
             if(TestDao.updateSQL(info,condition)){
-                List<Info> infos=null;
-                try {
-                    infos=infoDao.findAll();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
                 out.print(true);
             }else {
                 out.print(false);

@@ -13,7 +13,6 @@ import java.io.PrintWriter;
 
 @WebServlet("/Servlet3")
 public class Servlet3 extends HttpServlet {
-    private InfoDao infoDao = InfoDao.getInfoDao();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         PrintWriter out =response.getWriter();

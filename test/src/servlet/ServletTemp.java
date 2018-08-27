@@ -14,7 +14,6 @@ import java.util.List;
 @WebServlet("/ServletTemp")
 public class ServletTemp extends HttpServlet {
 
-    private InfoDao infoDao = InfoDao.getInfoDao();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Info> infos=null;
         infos= TestDao.findAll(Info.class,null);

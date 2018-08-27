@@ -1,5 +1,6 @@
 package servlet;
 
+import dao.TestDao;
 import model.UInfo;
 
 import javax.servlet.ServletException;
@@ -18,9 +19,8 @@ public class Servlet4 extends HttpServlet {
         UInfo uInfo=new UInfo();
         uInfo.setUser(user);
         uInfo.setCode(password);
-        UserDao uDao=new UserDao();
         PrintWriter out =response.getWriter();
-        if (uDao.enroll(user,password)){
+        if (TestDao.add(uInfo)){
             out.print(true);
         }
         else {
